@@ -16,6 +16,10 @@ Rails.application.routes.draw do
     resources :likes
   end
 
+  resources :image_posts do
+    resources :image_comments
+  end
+
   resources :users do
     resources :image_posts, only: 'get'
   end
