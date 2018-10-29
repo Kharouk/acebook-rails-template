@@ -13,8 +13,8 @@ class ImagePostsController < ApplicationController
   # GET /image_posts/1.json
   def show
     @image_post = ImagePost.find(params[:id])
-    @image_comments = @image_post.comments.all
-    @image_comment = @image_post.comments.build
+    @image_comments = @image_post.image_comments.all
+    @image_comment = @image_post.image_comments.build
     @user = User.find(current_user.id)
   end
 

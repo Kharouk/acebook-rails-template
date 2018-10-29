@@ -8,4 +8,7 @@ module ImagePostsHelper
   def get_images_by_user(user_id)
     ImagePost.where(user_id: user_id)
   end
+  def find_image_comments(image_post)
+    ImageComment.where(image_post_id: image_post.id)
+  end
 end
