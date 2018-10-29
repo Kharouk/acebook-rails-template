@@ -34,22 +34,10 @@ class ImagePostsController < ApplicationController
   def create
     @image_post = ImagePost.new(image_post_params)
     respond_to do |format|
-<<<<<<< HEAD
-      if @image_post.save
-        format.html { redirect_to @image_post, notice: 'Image post was successfully created.' }
-        format.json { render :show, status: :created, location: @image_post }
-      else
-        format.html { render :new }
-        format.json do
-          render json: @image_post.errors,
-                 status: :unprocessable_entity
-        end
-=======
       @image_post.save
       format.html do
         redirect_to @image_post,
                     notice: 'Image post was successfully created.'
->>>>>>> 6d93ea2857f6184393e2f738e3a7aee3ab193955
       end
       format.json { render :show, status: :created, location: @image_post }
     end

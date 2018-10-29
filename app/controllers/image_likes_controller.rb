@@ -6,7 +6,8 @@ class ImageLikesController < ApplicationController
   before_action :find_like, only: [:destroy]
 
   def create
-    @image_post.image_likes.create(user_id: current_user.id) unless already_liked?
+    @image_post.image_likes.create(user_id: current_user.id) 
+    unless already_liked?
 
     redirect_to image_post_url(@image_post), notice: 'You have liked.'
   end
@@ -20,7 +21,8 @@ class ImageLikesController < ApplicationController
   private
 
   def already_liked?
-    ImageLike.where(user_id: current_user.id, image_post_id: params[:image_post_id]).exists?
+    ImageLike.where(user_id: current_user.id, 
+                    image_post_id: params[:image_post_id]).exists?
   end
 
   def find_like
