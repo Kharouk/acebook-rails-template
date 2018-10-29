@@ -6,6 +6,7 @@ class ImagePost < ApplicationRecord
   belongs_to :user, optional: true
   validates_processing_of :picture
   validate :image_size_validation
+
   private
 
   def image_size_validation

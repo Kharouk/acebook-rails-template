@@ -1,3 +1,5 @@
+# frozen_string_literal: true
+
 # Controller for Likes - Manages creation and destruction of likes
 class ImageLikesController < ApplicationController
   before_action :find_posts
@@ -6,13 +8,13 @@ class ImageLikesController < ApplicationController
   def create
     @image_post.image_likes.create(user_id: current_user.id) unless already_liked?
 
-    redirect_to image_post_url(@image_post), notice: "You have liked."
+    redirect_to image_post_url(@image_post), notice: 'You have liked.'
   end
 
   def destroy
     @image_like.destroy if already_liked?
 
-    redirect_to image_post_url(@image_post), notice: "You have disliked."
+    redirect_to image_post_url(@image_post), notice: 'You have disliked.'
   end
 
   private
@@ -28,5 +30,4 @@ class ImageLikesController < ApplicationController
   def find_posts
     @image_post = ImagePost.find(params[:image_post_id])
   end
-
 end

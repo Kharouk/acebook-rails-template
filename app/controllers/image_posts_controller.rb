@@ -40,8 +40,10 @@ class ImagePostsController < ApplicationController
         format.json { render :show, status: :created, location: @image_post }
       else
         format.html { render :new }
-        format.json { render json: @image_post.errors, 
-          status: :unprocessable_entity }
+        format.json do
+          render json: @image_post.errors,
+                 status: :unprocessable_entity
+        end
       end
     end
   end

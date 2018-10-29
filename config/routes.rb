@@ -4,7 +4,7 @@ Rails.application.routes.draw do
   devise_for :users
   root 'welcome_page#timeline'
   get 'welcome', to: 'welcome_page#welcome'
-  
+
   resources :welcome_page
   # For details on the DSL available within this file, see http://guides.rubyonrails.org/routing.html
   get 'posts/delete', to: 'posts#delete'
@@ -15,8 +15,8 @@ Rails.application.routes.draw do
     resources :comments
     resources :likes
   end
-  
-  resources :image_posts do 
+
+  resources :image_posts do
     resources :image_likes
   end
 
