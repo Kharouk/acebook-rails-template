@@ -3,6 +3,8 @@
 # Model for the image posts
 class ImagePost < ApplicationRecord
   mount_uploader :picture, PictureUploader
+  has_many :image_likes, dependent: :destroy
+  belongs_to :user, optional: true
   validates_processing_of :picture
   validate :image_size_validation
   has_many :image_comments
