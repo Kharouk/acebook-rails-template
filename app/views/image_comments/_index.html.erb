@@ -2,7 +2,7 @@
 
 <% find_image_comments(@image_post).reverse.each do |comment| %>
 <div class='image_comment'>
-  Commented by <%= find_image_comment_email(comment) %> <%= time_ago_in_words(comment.created_at || Time.now) %> ago.
+  Commented by <%= find_image_comment_email(comment.user_id) %> <%= time_ago_in_words(comment.created_at || Time.now) %> ago.
   <p><%= comment.comment %></p>
   <hr>
 </div>

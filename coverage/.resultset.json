@@ -1,7 +1,7 @@
 {
   "RSpec": {
     "coverage": {
-      "/Users/danielstephenson/Documents/Projects/skills-workshops/week-8/acebook-ciCADA/spec/helpers/web_helpers.rb": [
+      "/Users/Cameron/Projects/acebook-ciCADA/spec/helpers/web_helpers.rb": [
         null,
         null,
         1,
@@ -29,7 +29,7 @@
         2,
         null
       ],
-      "/Users/danielstephenson/Documents/Projects/skills-workshops/week-8/acebook-ciCADA/spec/controllers/comments_controller_spec.rb": [
+      "/Users/Cameron/Projects/acebook-ciCADA/spec/controllers/comments_controller_spec.rb": [
         null,
         null,
         1,
@@ -37,7 +37,7 @@
         1,
         null
       ],
-      "/Users/danielstephenson/Documents/Projects/skills-workshops/week-8/acebook-ciCADA/spec/rails_helper.rb": [
+      "/Users/Cameron/Projects/acebook-ciCADA/spec/rails_helper.rb": [
         null,
         null,
         null,
@@ -104,7 +104,7 @@
         null,
         null
       ],
-      "/Users/danielstephenson/Documents/Projects/skills-workshops/week-8/acebook-ciCADA/config/environment.rb": [
+      "/Users/Cameron/Projects/acebook-ciCADA/config/environment.rb": [
         null,
         null,
         null,
@@ -113,7 +113,7 @@
         null,
         1
       ],
-      "/Users/danielstephenson/Documents/Projects/skills-workshops/week-8/acebook-ciCADA/config/application.rb": [
+      "/Users/Cameron/Projects/acebook-ciCADA/config/application.rb": [
         null,
         null,
         1,
@@ -137,14 +137,14 @@
         null,
         null
       ],
-      "/Users/danielstephenson/Documents/Projects/skills-workshops/week-8/acebook-ciCADA/config/boot.rb": [
+      "/Users/Cameron/Projects/acebook-ciCADA/config/boot.rb": [
         null,
         null,
         1,
         null,
         1
       ],
-      "/Users/danielstephenson/Documents/Projects/skills-workshops/week-8/acebook-ciCADA/config/environments/test.rb": [
+      "/Users/Cameron/Projects/acebook-ciCADA/config/environments/test.rb": [
         null,
         null,
         1,
@@ -191,7 +191,7 @@
         null,
         null
       ],
-      "/Users/danielstephenson/Documents/Projects/skills-workshops/week-8/acebook-ciCADA/config/initializers/application_controller_renderer.rb": [
+      "/Users/Cameron/Projects/acebook-ciCADA/config/initializers/application_controller_renderer.rb": [
         null,
         null,
         null,
@@ -201,7 +201,7 @@
         null,
         null
       ],
-      "/Users/danielstephenson/Documents/Projects/skills-workshops/week-8/acebook-ciCADA/config/initializers/assets.rb": [
+      "/Users/Cameron/Projects/acebook-ciCADA/config/initializers/assets.rb": [
         null,
         null,
         null,
@@ -219,309 +219,7 @@
         null,
         null
       ],
-      "/Users/danielstephenson/Documents/Projects/skills-workshops/week-8/acebook-ciCADA/config/initializers/backtrace_silencers.rb": [
-        null,
-        null,
-        null,
-        null,
-        null,
-        null,
-        null,
-        null,
-        null,
-        null,
-        null
-      ],
-      "/Users/danielstephenson/Documents/Projects/skills-workshops/week-8/acebook-ciCADA/config/initializers/cookies_serializer.rb": [
-        null,
-        null,
-        null,
-        null,
-        null,
-        null,
-        1
-      ],
-      "/Users/danielstephenson/Documents/Projects/skills-workshops/week-8/acebook-ciCADA/config/initializers/devise.rb": [
-        null,
-        null,
-        null,
-        null,
-        1,
-        null,
-        null,
-        null,
-        null,
-        null,
-        null,
-        null,
-        null,
-        null,
-        null,
-        null,
-        null,
-        null,
-        null,
-        null,
-        1,
-        null,
-        null,
-        null,
-        null,
-        null,
-        null,
-        null,
-        null,
-        null,
-        null,
-        null,
-        1,
-        null,
-        null,
-        null,
-        null,
-        null,
-        null,
-        null,
-        null,
-        null,
-        null,
-        null,
-        null,
-        null,
-        null,
-        null,
-        null,
-        null,
-        null,
-        null,
-        null,
-        null,
-        1,
-        null,
-        null,
-        null,
-        null,
-        1,
-        null,
-        null,
-        null,
-        null,
-        null,
-        null,
-        null,
-        null,
-        null,
-        null,
-        null,
-        null,
-        null,
-        null,
-        null,
-        null,
-        null,
-        null,
-        null,
-        null,
-        null,
-        null,
-        null,
-        null,
-        null,
-        null,
-        null,
-        null,
-        null,
-        null,
-        1,
-        null,
-        null,
-        null,
-        null,
-        null,
-        null,
-        null,
-        null,
-        null,
-        null,
-        null,
-        null,
-        null,
-        null,
-        null,
-        null,
-        null,
-        null,
-        null,
-        null,
-        null,
-        null,
-        1,
-        null,
-        null,
-        null,
-        null,
-        null,
-        null,
-        null,
-        null,
-        null,
-        null,
-        null,
-        null,
-        null,
-        null,
-        null,
-        null,
-        null,
-        null,
-        null,
-        null,
-        null,
-        null,
-        null,
-        null,
-        null,
-        null,
-        null,
-        null,
-        null,
-        null,
-        1,
-        null,
-        null,
-        null,
-        null,
-        null,
-        null,
-        null,
-        null,
-        null,
-        1,
-        null,
-        null,
-        null,
-        null,
-        null,
-        null,
-        null,
-        null,
-        null,
-        null,
-        1,
-        null,
-        null,
-        null,
-        null,
-        1,
-        null,
-        null,
-        null,
-        null,
-        null,
-        null,
-        null,
-        null,
-        null,
-        null,
-        null,
-        null,
-        null,
-        null,
-        null,
-        null,
-        null,
-        null,
-        null,
-        null,
-        null,
-        null,
-        null,
-        null,
-        null,
-        null,
-        null,
-        null,
-        null,
-        null,
-        null,
-        null,
-        null,
-        null,
-        null,
-        null,
-        null,
-        null,
-        null,
-        null,
-        1,
-        null,
-        null,
-        null,
-        null,
-        null,
-        null,
-        null,
-        null,
-        null,
-        null,
-        null,
-        null,
-        null,
-        null,
-        null,
-        null,
-        null,
-        null,
-        null,
-        1,
-        null,
-        null,
-        null,
-        null,
-        null,
-        null,
-        null,
-        null,
-        null,
-        null,
-        null,
-        null,
-        null,
-        null,
-        null,
-        null,
-        null,
-        null,
-        null,
-        null,
-        null,
-        1,
-        null,
-        null,
-        null,
-        null,
-        null,
-        null,
-        null,
-        null,
-        null,
-        null,
-        null,
-        null,
-        null,
-        null,
-        null,
-        null,
-        null,
-        null,
-        null,
-        null,
-        null,
-        null,
-        null,
-        null,
-        null,
-        null,
+      "/Users/Cameron/Projects/acebook-ciCADA/config/initializers/backtrace_silencers.rb": [
         null,
         null,
         null,
@@ -534,7 +232,8 @@
         null,
         null
       ],
-      "/Users/danielstephenson/Documents/Projects/skills-workshops/week-8/acebook-ciCADA/config/initializers/filter_parameter_logging.rb": [
+      "/Users/Cameron/Projects/acebook-ciCADA/config/initializers/cookies_serializer.rb": [
+        null,
         null,
         null,
         null,
@@ -542,7 +241,280 @@
         null,
         1
       ],
-      "/Users/danielstephenson/Documents/Projects/skills-workshops/week-8/acebook-ciCADA/config/initializers/inflections.rb": [
+      "/Users/Cameron/Projects/acebook-ciCADA/config/initializers/devise.rb": [
+        null,
+        null,
+        null,
+        null,
+        1,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        1,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        1,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        1,
+        null,
+        null,
+        null,
+        null,
+        1,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        1,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        1,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        1,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        1,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        1,
+        null,
+        null,
+        null,
+        null,
+        1,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        1,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        1,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        1,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
         null,
         null,
         null,
@@ -562,7 +534,27 @@
         null,
         null
       ],
-      "/Users/danielstephenson/Documents/Projects/skills-workshops/week-8/acebook-ciCADA/config/initializers/mime_types.rb": [
+      "/Users/Cameron/Projects/acebook-ciCADA/config/initializers/filter_parameter_logging.rb": [
+        null,
+        null,
+        null,
+        null,
+        null,
+        1
+      ],
+      "/Users/Cameron/Projects/acebook-ciCADA/config/initializers/inflections.rb": [
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
         null,
         null,
         null,
@@ -570,7 +562,15 @@
         null,
         null
       ],
-      "/Users/danielstephenson/Documents/Projects/skills-workshops/week-8/acebook-ciCADA/config/initializers/wrap_parameters.rb": [
+      "/Users/Cameron/Projects/acebook-ciCADA/config/initializers/mime_types.rb": [
+        null,
+        null,
+        null,
+        null,
+        null,
+        null
+      ],
+      "/Users/Cameron/Projects/acebook-ciCADA/config/initializers/wrap_parameters.rb": [
         null,
         null,
         null,
@@ -589,7 +589,7 @@
         null,
         null
       ],
-      "/Users/danielstephenson/Documents/Projects/skills-workshops/week-8/acebook-ciCADA/spec/factories.rb": [
+      "/Users/Cameron/Projects/acebook-ciCADA/spec/factories.rb": [
         null,
         null,
         1,
@@ -599,7 +599,7 @@
         null,
         null
       ],
-      "/Users/danielstephenson/Documents/Projects/skills-workshops/week-8/acebook-ciCADA/config/routes.rb": [
+      "/Users/Cameron/Projects/acebook-ciCADA/config/routes.rb": [
         null,
         null,
         1,
@@ -623,7 +623,7 @@
         null,
         null
       ],
-      "/Users/danielstephenson/Documents/Projects/skills-workshops/week-8/acebook-ciCADA/app/models/user.rb": [
+      "/Users/Cameron/Projects/acebook-ciCADA/app/models/user.rb": [
         null,
         null,
         null,
@@ -638,7 +638,7 @@
         null,
         null
       ],
-      "/Users/danielstephenson/Documents/Projects/skills-workshops/week-8/acebook-ciCADA/app/models/application_record.rb": [
+      "/Users/Cameron/Projects/acebook-ciCADA/app/models/application_record.rb": [
         null,
         null,
         null,
@@ -646,7 +646,7 @@
         1,
         null
       ],
-      "/Users/danielstephenson/Documents/Projects/skills-workshops/week-8/acebook-ciCADA/app/helpers/application_helper.rb": [
+      "/Users/Cameron/Projects/acebook-ciCADA/app/helpers/application_helper.rb": [
         null,
         null,
         null,
@@ -654,7 +654,7 @@
         1,
         null
       ],
-      "/Users/danielstephenson/Documents/Projects/skills-workshops/week-8/acebook-ciCADA/app/helpers/comments_helper.rb": [
+      "/Users/Cameron/Projects/acebook-ciCADA/app/helpers/comments_helper.rb": [
         null,
         null,
         null,
@@ -664,17 +664,35 @@
         null,
         null
       ],
-      "/Users/danielstephenson/Documents/Projects/skills-workshops/week-8/acebook-ciCADA/app/helpers/image_posts_helper.rb": [
+      "/Users/Cameron/Projects/acebook-ciCADA/app/helpers/image_comments_helper.rb": [
         null,
         null,
         null,
         1,
+        1,
+        1,
+        null,
+        null
+      ],
+      "/Users/Cameron/Projects/acebook-ciCADA/app/helpers/image_posts_helper.rb": [
+        null,
+        null,
+        null,
+        1,
+        1,
+        5,
+        null,
+        null,
         1,
         2,
         null,
+        null,
+        1,
+        3,
+        null,
         null
       ],
-      "/Users/danielstephenson/Documents/Projects/skills-workshops/week-8/acebook-ciCADA/app/helpers/posts_helper.rb": [
+      "/Users/Cameron/Projects/acebook-ciCADA/app/helpers/posts_helper.rb": [
         null,
         null,
         null,
@@ -690,21 +708,21 @@
         null,
         null
       ],
-      "/Users/danielstephenson/Documents/Projects/skills-workshops/week-8/acebook-ciCADA/app/helpers/welcome_page_helper.rb": [
+      "/Users/Cameron/Projects/acebook-ciCADA/app/helpers/welcome_page_helper.rb": [
         null,
         null,
         null,
         1,
         null
       ],
-      "/Users/danielstephenson/Documents/Projects/skills-workshops/week-8/acebook-ciCADA/spec/support/factory_bot.rb": [
+      "/Users/Cameron/Projects/acebook-ciCADA/spec/support/factory_bot.rb": [
         null,
         null,
         1,
         1,
         null
       ],
-      "/Users/danielstephenson/Documents/Projects/skills-workshops/week-8/acebook-ciCADA/app/controllers/comments_controller.rb": [
+      "/Users/Cameron/Projects/acebook-ciCADA/app/controllers/comments_controller.rb": [
         null,
         null,
         null,
@@ -727,7 +745,7 @@
         null,
         null
       ],
-      "/Users/danielstephenson/Documents/Projects/skills-workshops/week-8/acebook-ciCADA/app/controllers/application_controller.rb": [
+      "/Users/Cameron/Projects/acebook-ciCADA/app/controllers/application_controller.rb": [
         null,
         null,
         null,
@@ -746,7 +764,7 @@
         null,
         null
       ],
-      "/Users/danielstephenson/Documents/Projects/skills-workshops/week-8/acebook-ciCADA/spec/controllers/image_posts_controller_spec.rb": [
+      "/Users/Cameron/Projects/acebook-ciCADA/spec/controllers/image_posts_controller_spec.rb": [
         null,
         null,
         1,
@@ -914,17 +932,13 @@
         null,
         null
       ],
-      "/Users/danielstephenson/Documents/Projects/skills-workshops/week-8/acebook-ciCADA/app/controllers/image_posts_controller.rb": [
+      "/Users/Cameron/Projects/acebook-ciCADA/app/controllers/image_posts_controller.rb": [
         null,
         null,
         null,
         1,
         1,
         null,
-        null,
-        null,
-        1,
-        2,
         null,
         null,
         1,
@@ -935,21 +949,23 @@
         null,
         1,
         4,
-        null,
-        null,
-        null,
-        1,
         4,
         4,
         null,
         null,
         null,
         1,
+        4,
+        null,
+        null,
+        null,
+        1,
         null,
         null,
         null,
         1,
         6,
+        null,
         6,
         6,
         6,
@@ -990,7 +1006,7 @@
         null,
         null,
         1,
-        16,
+        12,
         null,
         null,
         null,
@@ -1000,7 +1016,7 @@
         null,
         null
       ],
-      "/Users/danielstephenson/Documents/Projects/skills-workshops/week-8/acebook-ciCADA/spec/controllers/likes_controller_spec.rb": [
+      "/Users/Cameron/Projects/acebook-ciCADA/spec/controllers/likes_controller_spec.rb": [
         null,
         null,
         1,
@@ -1008,7 +1024,7 @@
         1,
         null
       ],
-      "/Users/danielstephenson/Documents/Projects/skills-workshops/week-8/acebook-ciCADA/app/controllers/likes_controller.rb": [
+      "/Users/Cameron/Projects/acebook-ciCADA/app/controllers/likes_controller.rb": [
         null,
         null,
         null,
@@ -1043,7 +1059,7 @@
         null,
         null
       ],
-      "/Users/danielstephenson/Documents/Projects/skills-workshops/week-8/acebook-ciCADA/spec/controllers/posts_controller_spec.rb": [
+      "/Users/Cameron/Projects/acebook-ciCADA/spec/controllers/posts_controller_spec.rb": [
         null,
         null,
         1,
@@ -1100,7 +1116,7 @@
         null,
         null
       ],
-      "/Users/danielstephenson/Documents/Projects/skills-workshops/week-8/acebook-ciCADA/app/controllers/posts_controller.rb": [
+      "/Users/Cameron/Projects/acebook-ciCADA/app/controllers/posts_controller.rb": [
         null,
         null,
         null,
@@ -1154,7 +1170,7 @@
         null,
         null
       ],
-      "/Users/danielstephenson/Documents/Projects/skills-workshops/week-8/acebook-ciCADA/spec/controllers/welcome_page_controller_spec.rb": [
+      "/Users/Cameron/Projects/acebook-ciCADA/spec/controllers/welcome_page_controller_spec.rb": [
         null,
         null,
         1,
@@ -1178,7 +1194,7 @@
         null,
         null
       ],
-      "/Users/danielstephenson/Documents/Projects/skills-workshops/week-8/acebook-ciCADA/app/controllers/welcome_page_controller.rb": [
+      "/Users/Cameron/Projects/acebook-ciCADA/app/controllers/welcome_page_controller.rb": [
         null,
         null,
         null,
@@ -1205,7 +1221,7 @@
         null,
         null
       ],
-      "/Users/danielstephenson/Documents/Projects/skills-workshops/week-8/acebook-ciCADA/spec/features/user_can_delete_post_spec.rb": [
+      "/Users/Cameron/Projects/acebook-ciCADA/spec/features/user_can_delete_post_spec.rb": [
         null,
         null,
         1,
@@ -1219,7 +1235,7 @@
         null,
         null
       ],
-      "/Users/danielstephenson/Documents/Projects/skills-workshops/week-8/acebook-ciCADA/spec/features/user_can_have_a_username_spec.rb": [
+      "/Users/Cameron/Projects/acebook-ciCADA/spec/features/user_can_have_a_username_spec.rb": [
         null,
         null,
         1,
@@ -1232,29 +1248,7 @@
         null,
         null
       ],
-      "/Users/danielstephenson/Documents/Projects/skills-workshops/week-8/acebook-ciCADA/spec/features/user_can_like_posts_spec.rb": [
-        null,
-        null,
-        1,
-        null,
-        1,
-        1,
-        1,
-        1,
-        1,
-        1,
-        null,
-        null,
-        1,
-        1,
-        1,
-        1,
-        1,
-        1,
-        null,
-        null
-      ],
-      "/Users/danielstephenson/Documents/Projects/skills-workshops/week-8/acebook-ciCADA/spec/features/user_can_see_comments_spec.rb": [
+      "/Users/Cameron/Projects/acebook-ciCADA/spec/features/user_can_like_posts_spec.rb": [
         null,
         null,
         1,
@@ -1276,7 +1270,29 @@
         null,
         null
       ],
-      "/Users/danielstephenson/Documents/Projects/skills-workshops/week-8/acebook-ciCADA/spec/features/user_can_see_edit_page_spec.rb": [
+      "/Users/Cameron/Projects/acebook-ciCADA/spec/features/user_can_see_comments_spec.rb": [
+        null,
+        null,
+        1,
+        null,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        null,
+        null,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        null,
+        null
+      ],
+      "/Users/Cameron/Projects/acebook-ciCADA/spec/features/user_can_see_edit_page_spec.rb": [
         null,
         null,
         1,
@@ -1289,7 +1305,7 @@
         null,
         null
       ],
-      "/Users/danielstephenson/Documents/Projects/skills-workshops/week-8/acebook-ciCADA/spec/features/user_can_see_sign_in_page_spec.rb": [
+      "/Users/Cameron/Projects/acebook-ciCADA/spec/features/user_can_see_sign_in_page_spec.rb": [
         null,
         null,
         1,
@@ -1301,7 +1317,7 @@
         null,
         null
       ],
-      "/Users/danielstephenson/Documents/Projects/skills-workshops/week-8/acebook-ciCADA/spec/features/user_can_see_their_own_image_posts_spec.rb": [
+      "/Users/Cameron/Projects/acebook-ciCADA/spec/features/user_can_see_their_own_image_posts_spec.rb": [
         null,
         null,
         1,
@@ -1315,38 +1331,7 @@
         null,
         null
       ],
-      "/Users/danielstephenson/Documents/Projects/skills-workshops/week-8/acebook-ciCADA/spec/features/user_can_submit_posts_spec.rb": [
-        null,
-        null,
-        1,
-        null,
-        1,
-        1,
-        1,
-        1,
-        1,
-        1,
-        1,
-        1,
-        null,
-        null
-      ],
-      "/Users/danielstephenson/Documents/Projects/skills-workshops/week-8/acebook-ciCADA/spec/features/user_can_update_post_spec.rb": [
-        null,
-        null,
-        1,
-        null,
-        1,
-        1,
-        1,
-        1,
-        1,
-        1,
-        1,
-        null,
-        null
-      ],
-      "/Users/danielstephenson/Documents/Projects/skills-workshops/week-8/acebook-ciCADA/spec/features/user_cannot_upload_bad_image_spec.rb": [
+      "/Users/Cameron/Projects/acebook-ciCADA/spec/features/user_can_submit_posts_spec.rb": [
         null,
         null,
         1,
@@ -1362,7 +1347,38 @@
         null,
         null
       ],
-      "/Users/danielstephenson/Documents/Projects/skills-workshops/week-8/acebook-ciCADA/spec/features/user_is_greeted_by_their_email_spec.rb": [
+      "/Users/Cameron/Projects/acebook-ciCADA/spec/features/user_can_update_post_spec.rb": [
+        null,
+        null,
+        1,
+        null,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        null,
+        null
+      ],
+      "/Users/Cameron/Projects/acebook-ciCADA/spec/features/user_cannot_upload_bad_image_spec.rb": [
+        null,
+        null,
+        1,
+        null,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        null,
+        null
+      ],
+      "/Users/Cameron/Projects/acebook-ciCADA/spec/features/user_is_greeted_by_their_email_spec.rb": [
         null,
         null,
         1,
@@ -1375,7 +1391,7 @@
         null,
         null
       ],
-      "/Users/danielstephenson/Documents/Projects/skills-workshops/week-8/acebook-ciCADA/spec/features/users_can_sign_up_and_sign_in_spec.rb": [
+      "/Users/Cameron/Projects/acebook-ciCADA/spec/features/users_can_sign_up_and_sign_in_spec.rb": [
         null,
         null,
         1,
@@ -1387,11 +1403,12 @@
         null,
         null
       ],
-      "/Users/danielstephenson/Documents/Projects/skills-workshops/week-8/acebook-ciCADA/spec/features/users_can_upload_picture_spec.rb": [
+      "/Users/Cameron/Projects/acebook-ciCADA/spec/features/users_can_upload_picture_spec.rb": [
         null,
         null,
         1,
         null,
+        1,
         1,
         1,
         1,
@@ -1400,7 +1417,7 @@
         null,
         null
       ],
-      "/Users/danielstephenson/Documents/Projects/skills-workshops/week-8/acebook-ciCADA/spec/helpers/comments_helper_spec.rb": [
+      "/Users/Cameron/Projects/acebook-ciCADA/spec/helpers/comments_helper_spec.rb": [
         null,
         null,
         1,
@@ -1424,7 +1441,31 @@
         null,
         null
       ],
-      "/Users/danielstephenson/Documents/Projects/skills-workshops/week-8/acebook-ciCADA/spec/helpers/image_posts_helper_spec.rb": [
+      "/Users/Cameron/Projects/acebook-ciCADA/spec/helpers/image_comments_helper_spec.rb": [
+        null,
+        null,
+        1,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        1,
+        1,
+        1,
+        1,
+        1,
+        null,
+        null,
+        null
+      ],
+      "/Users/Cameron/Projects/acebook-ciCADA/spec/helpers/image_posts_helper_spec.rb": [
         null,
         null,
         1,
@@ -1443,7 +1484,7 @@
         1,
         null
       ],
-      "/Users/danielstephenson/Documents/Projects/skills-workshops/week-8/acebook-ciCADA/spec/helpers/welcome_page_helper_spec.rb": [
+      "/Users/Cameron/Projects/acebook-ciCADA/spec/helpers/welcome_page_helper_spec.rb": [
         null,
         null,
         1,
@@ -1462,7 +1503,7 @@
         1,
         null
       ],
-      "/Users/danielstephenson/Documents/Projects/skills-workshops/week-8/acebook-ciCADA/spec/models/comment_spec.rb": [
+      "/Users/Cameron/Projects/acebook-ciCADA/spec/models/comment_spec.rb": [
         null,
         null,
         1,
@@ -1471,7 +1512,7 @@
         1,
         null
       ],
-      "/Users/danielstephenson/Documents/Projects/skills-workshops/week-8/acebook-ciCADA/app/models/comment.rb": [
+      "/Users/Cameron/Projects/acebook-ciCADA/app/models/comment.rb": [
         null,
         null,
         null,
@@ -1481,7 +1522,7 @@
         1,
         null
       ],
-      "/Users/danielstephenson/Documents/Projects/skills-workshops/week-8/acebook-ciCADA/spec/models/image_post_spec.rb": [
+      "/Users/Cameron/Projects/acebook-ciCADA/spec/models/image_post_spec.rb": [
         null,
         null,
         1,
@@ -1490,10 +1531,10 @@
         1,
         null
       ],
-      "/Users/danielstephenson/Documents/Projects/skills-workshops/week-8/acebook-ciCADA/app/models/image_post.rb": [
+      "/Users/Cameron/Projects/acebook-ciCADA/app/models/image_post.rb": [
         null,
         null,
-        1,
+        null,
         1,
         1,
         1,
@@ -1501,11 +1542,13 @@
         1,
         null,
         1,
-        23,
+        null,
+        1,
+        22,
         null,
         null
       ],
-      "/Users/danielstephenson/Documents/Projects/skills-workshops/week-8/acebook-ciCADA/app/uploaders/picture_uploader.rb": [
+      "/Users/Cameron/Projects/acebook-ciCADA/app/uploaders/picture_uploader.rb": [
         null,
         null,
         null,
@@ -1559,7 +1602,7 @@
         null,
         null
       ],
-      "/Users/danielstephenson/Documents/Projects/skills-workshops/week-8/acebook-ciCADA/spec/models/like_spec.rb": [
+      "/Users/Cameron/Projects/acebook-ciCADA/spec/models/like_spec.rb": [
         null,
         null,
         1,
@@ -1568,7 +1611,7 @@
         1,
         null
       ],
-      "/Users/danielstephenson/Documents/Projects/skills-workshops/week-8/acebook-ciCADA/app/models/like.rb": [
+      "/Users/Cameron/Projects/acebook-ciCADA/app/models/like.rb": [
         null,
         null,
         null,
@@ -1577,7 +1620,7 @@
         1,
         null
       ],
-      "/Users/danielstephenson/Documents/Projects/skills-workshops/week-8/acebook-ciCADA/spec/models/post_spec.rb": [
+      "/Users/Cameron/Projects/acebook-ciCADA/spec/models/post_spec.rb": [
         null,
         null,
         1,
@@ -1586,7 +1629,7 @@
         2,
         null
       ],
-      "/Users/danielstephenson/Documents/Projects/skills-workshops/week-8/acebook-ciCADA/app/models/post.rb": [
+      "/Users/Cameron/Projects/acebook-ciCADA/app/models/post.rb": [
         null,
         null,
         null,
@@ -1598,7 +1641,7 @@
         1,
         null
       ],
-      "/Users/danielstephenson/Documents/Projects/skills-workshops/week-8/acebook-ciCADA/spec/models/user_spec.rb": [
+      "/Users/Cameron/Projects/acebook-ciCADA/spec/models/user_spec.rb": [
         null,
         null,
         1,
@@ -1607,7 +1650,7 @@
         1,
         null
       ],
-      "/Users/danielstephenson/Documents/Projects/skills-workshops/week-8/acebook-ciCADA/spec/requests/image_posts_spec.rb": [
+      "/Users/Cameron/Projects/acebook-ciCADA/spec/requests/image_posts_spec.rb": [
         null,
         null,
         1,
@@ -1621,7 +1664,7 @@
         null,
         null
       ],
-      "/Users/danielstephenson/Documents/Projects/skills-workshops/week-8/acebook-ciCADA/spec/routing/image_posts_routing_spec.rb": [
+      "/Users/Cameron/Projects/acebook-ciCADA/spec/routing/image_posts_routing_spec.rb": [
         null,
         null,
         1,
@@ -1665,7 +1708,7 @@
         null,
         null
       ],
-      "/Users/danielstephenson/Documents/Projects/skills-workshops/week-8/acebook-ciCADA/spec/views/image_posts/edit.html.erb_spec.rb": [
+      "/Users/Cameron/Projects/acebook-ciCADA/spec/views/image_posts/edit.html.erb_spec.rb": [
         null,
         null,
         1,
@@ -1690,7 +1733,7 @@
         null,
         null
       ],
-      "/Users/danielstephenson/Documents/Projects/skills-workshops/week-8/acebook-ciCADA/spec/views/image_posts/index.html.erb_spec.rb": [
+      "/Users/Cameron/Projects/acebook-ciCADA/spec/views/image_posts/index.html.erb_spec.rb": [
         null,
         null,
         1,
@@ -1715,7 +1758,7 @@
         null,
         null
       ],
-      "/Users/danielstephenson/Documents/Projects/skills-workshops/week-8/acebook-ciCADA/spec/views/image_posts/new.html.erb_spec.rb": [
+      "/Users/Cameron/Projects/acebook-ciCADA/spec/views/image_posts/new.html.erb_spec.rb": [
         null,
         null,
         1,
@@ -1739,27 +1782,7 @@
         null,
         null
       ],
-      "/Users/danielstephenson/Documents/Projects/skills-workshops/week-8/acebook-ciCADA/spec/views/image_posts/show.html.erb_spec.rb": [
-        null,
-        null,
-        1,
-        null,
-        1,
-        1,
-        1,
-        null,
-        null,
-        null,
-        null,
-        null,
-        1,
-        1,
-        1,
-        1,
-        null,
-        null
-      ],
-      "/Users/danielstephenson/Documents/Projects/skills-workshops/week-8/acebook-ciCADA/spec/views/welcome_page/welcome.html.erb_spec.rb": [
+      "/Users/Cameron/Projects/acebook-ciCADA/spec/views/welcome_page/welcome.html.erb_spec.rb": [
         null,
         null,
         1,
@@ -1768,7 +1791,7 @@
         1,
         null
       ],
-      "/Users/danielstephenson/Documents/Projects/skills-workshops/week-8/acebook-ciCADA/app/models/image_comment.rb": [
+      "/Users/Cameron/Projects/acebook-ciCADA/app/models/image_comment.rb": [
         null,
         null,
         null,
@@ -1779,6 +1802,6 @@
         null
       ]
     },
-    "timestamp": 1540825890
+    "timestamp": 1540829131
   }
 }
