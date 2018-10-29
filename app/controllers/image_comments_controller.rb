@@ -1,14 +1,14 @@
 # frozen_string_literal: true
 
-# Controller for the comments
+# Controller for the image comments
 class ImageCommentsController < ApplicationController
   before_action :find_post
   include CommentsHelper
 
   def create
-    puts params
-    @image_post.image_comments.create(user_id: current_user.id,
-                          comment: params[:image_comment].values.join(''))
+    comment_params = { user_id: current_user.id,
+                       comment: params[:image_comment].values.join('') }
+    @image_post.image_comments.create(comment_params)
     redirect_to image_post_url(@image_post)
   end
 

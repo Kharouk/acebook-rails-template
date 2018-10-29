@@ -621,6 +621,10 @@
         1,
         1,
         null,
+        null,
+        1,
+        1,
+        null,
         null
       ],
       "/Users/Cameron/Projects/acebook-ciCADA/app/models/user.rb": [
@@ -1461,6 +1465,7 @@
         1,
         1,
         1,
+        1,
         null,
         null,
         null
@@ -1802,6 +1807,6 @@
         null
       ]
     },
-    "timestamp": 1540829131
+    "timestamp": 1540830189
   }
 }
