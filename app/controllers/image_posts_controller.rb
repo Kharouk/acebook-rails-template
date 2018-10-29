@@ -1,6 +1,5 @@
 # frozen_string_literal: true
 
-# Allows us to upload image posts to our app
 class ImagePostsController < ApplicationController
   before_action :set_image_post, only: %i[show edit update destroy]
 
@@ -10,20 +9,18 @@ class ImagePostsController < ApplicationController
     @image_posts = ImagePost.all
   end
 
-  def user_images
-    @user = current_user
-  end
-
   # GET /image_posts/1
   # GET /image_posts/1.json
   def show
-    set_image_post if params[:id]
+    @image_post = ImagePost.find(params[:id])
+    @image_comments = @image_post.comments.all
+    @image_comment = @image_post.comments.build
+    @user = User.find(current_user.id)
   end
 
   # GET /image_posts/new
   def new
     @image_post = ImagePost.new
-    @user = current_user
   end
 
   # GET /image_posts/1/edit
@@ -33,13 +30,15 @@ class ImagePostsController < ApplicationController
   # POST /image_posts.json
   def create
     @image_post = ImagePost.new(image_post_params)
+
     respond_to do |format|
-      @image_post.save
-      format.html do
-        redirect_to @image_post,
-                    notice: 'Image post was successfully created.'
+      if @image_post.save
+        format.html { redirect_to @image_post, notice: 'Image post was successfully created.' }
+        format.json { render :show, status: :created, location: @image_post }
+      else
+        format.html { render :new }
+        format.json { render json: @image_post.errors, status: :unprocessable_entity }
       end
-      format.json { render :show, status: :created, location: @image_post }
     end
   end
 
@@ -47,12 +46,13 @@ class ImagePostsController < ApplicationController
   # PATCH/PUT /image_posts/1.json
   def update
     respond_to do |format|
-      @image_post.update(image_post_params)
-      format.html do
-        redirect_to @image_post,
-                    notice: 'Image post was successfully updated.'
+      if @image_post.update(image_post_params)
+        format.html { redirect_to @image_post, notice: 'Image post was successfully updated.' }
+        format.json { render :show, status: :ok, location: @image_post }
+      else
+        format.html { render :edit }
+        format.json { render json: @image_post.errors, status: :unprocessable_entity }
       end
-      format.json { render :show, status: :ok, location: @image_post }
     end
   end
 
@@ -61,10 +61,7 @@ class ImagePostsController < ApplicationController
   def destroy
     @image_post.destroy
     respond_to do |format|
-      format.html do
-        redirect_to image_posts_url,
-                    notice: 'Image post was successfully destroyed.'
-      end
+      format.html { redirect_to image_posts_url, notice: 'Image post was successfully destroyed.' }
       format.json { head :no_content }
     end
   end
@@ -76,7 +73,7 @@ class ImagePostsController < ApplicationController
     @image_post = ImagePost.find(params[:id])
   end
 
-  # Never trust parameters from the scary internet, only allow the white list.
+  # Never trust parameters from the scary internet, only allow the white list through.
   def image_post_params
     output = params.require(:image_post).permit(:caption, :picture)
     output.merge(user_id: current_user.id)
